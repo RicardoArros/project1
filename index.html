@@ -1,70 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- ===== SWIPER CSS ===== -->
-        <link rel="stylesheet" href="">
-        
-        <!-- ===== BOX ICONS ===== -->
-        
+<html lang="es">
 
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Portfolio Personal Complete</title>
-    </head>
-    <body>
-        <!--===== SCROLL TOP =====-->
-        
-        
-        <!--===== HEADER =====-->
-        <header class="l-header" id="header">
-            
-        </header>
+    <!-- ===== SWIPER CSS ===== -->
+    <link rel="stylesheet" href="" />
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            
-            
-            <!--===== ABOUT =====-->
-            
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-            <!--===== QUALIFICATION =====-->
-            
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
 
-            <!--===== SERVICES =====-->
-            
-            
-            <!--===== PROJECT IN MIND =====-->
-            
+    <title>Portfolio Personal Complete</title>
+  </head>
 
-            <!--===== PORTFOLIO =====-->
-            
+  <body>
+    <!--===== SCROLL TOP =====-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
 
-            <!--===== TESTIMONIAL =====-->
-            
+    <!--===== HEADER =====-->
+    <header class="l-header" id="header">
 
-            <!--===== CONTACTME =====-->
-            
-        </main>
+      <nav class="nav bd-container">
 
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            
-        </footer>
-        
-        <!-- ===== MIXITUP FILTER ===== -->
-        <script src=""></script>
-        
-        <!-- ===== SWIPER JS ===== -->
-        <script src=""></script>
-        
-        <!-- ===== GSAP ===== -->
-        <script src=""></script>
-        
-        <!--===== MAIN JS =====-->
-        <script src=""></script>
-    </body>
+        <a href="#" class="nav__logo">Ricardo Arros</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+
+      </nav>
+
+    </header>
+    <!--===== HEADER END =====-->
+
+
+    <!-- MAIN -->
+    <main class="l-main">
+
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+
+        <div class="home__container bd-container bd-grid">
+
+          <!-- home data -->
+          <div class="home__data">
+
+            <span class="home__greeting">Hello, My name is</span>
+
+            <h1 class="home__name">Ricardo Arros</h1>
+
+            <span class="home__profession">Web Developer</span>
+
+            <a download="" href="assets/pdf/Clay-Doe-Cv.pdf" class="button"></a>
+          </div>
+
+          <!-- home social -->
+          <div class="home__social">
+            <a href="#" class="home__social-icon">
+              <i class="bx bxl-facebook-square"></i>
+            </a>
+            <a href="#" class="home__social-icon">
+              <i class="bx bxl-facebook-square"></i>
+            </a>
+            <a href="#" class="home__social-icon">
+              <i class="bx bxl-facebook-square"></i>
+            </a>
+          </div>
+          
+          <!-- home img -->
+          <div class="home__img">
+            <img src="./assets/img/home.jpg" alt="">
+          </div>
+        </div>
+
+      </section>
+       <!--===== HOME END =====-->
+
+
+      <!--===== ABOUT =====-->
+
+      <!--===== QUALIFICATION =====-->
+
+      <!--===== SERVICES =====-->
+
+      <!--===== PROJECT IN MIND =====-->
+
+      <!--===== PORTFOLIO =====-->
+
+      <!--===== TESTIMONIAL =====-->
+
+      <!--===== CONTACT ME =====-->
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer"></footer>
+
+    <!-- ===== MIXITUP FILTER ===== -->
+    <script src=""></script>
+
+    <!-- ===== SWIPER JS ===== -->
+    <script src=""></script>
+
+    <!-- ===== GSAP ===== -->
+    <script src=""></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
